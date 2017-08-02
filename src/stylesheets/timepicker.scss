@@ -1,0 +1,74 @@
+.timepicker-selected-date-wrapper {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.timepicker-selected-date {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.timepicker-opened-layout {
+    width: 400px;
+}
+
+.timepicker-opened {
+    display: block;
+    box-shadow: 1px 1px 5px #888888;
+    margin-top: 7px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    z-index: 1;
+    top: 100%;
+}
+
+.timepicker-item {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+     transition:all 0.3s ease;
+    line-height: 40px;
+}
+
+.timepicker-item-highlighted {
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    font-size:18px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+.timepicker-item-disabled {
+    color: gray;
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.timepicker-current {
+    background-color: cornflowerblue;
+    width: 50%;
+    float: right;
+    line-height: 200px;
+    height: 100%;
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+}
+
+.timepicker-list {
+    float: left;
+    width: 50%;
+    overflow-y: scroll;
+    height: 200px;
+}
+ 
