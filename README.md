@@ -11,6 +11,10 @@ Get started by
   const TimeInterval=TimePick.TimeInterval
   </code>
   
+  or:
+  
+  <code>import {TimePicker} from 'react-timepick'</code>
+  
   <code>TimeInterval</code> is just typescript interface for <code>allowedIntervals</code> prop
   
   <b>CSS</b>
