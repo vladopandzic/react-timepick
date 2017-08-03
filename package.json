@@ -1,6 +1,6 @@
 {
   "name": "react-timepick",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Vlado Pandžić",
   "license": "ISC",
+"repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/vladop/react-timepick"
+  },
   "dependencies": {
     "jquery": "^3.2.1",
     "react-click-outside": "github:tj/react-click-outside"
