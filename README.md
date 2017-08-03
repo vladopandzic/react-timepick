@@ -1,6 +1,6 @@
 # react-timepick
 
-<b>Demo: https://vladop.github.io/react-timepick/examples/index.html </b>
+<b>Demo: <a href="https://vladop.github.io/react-timepick/examples/index.html">https://vladop.github.io/react-timepick/examples/index.html</a> </b>
 
 
 Get started by
