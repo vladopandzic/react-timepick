@@ -9,14 +9,14 @@ Get started by
   <b>Javascript:</b>
   
   
-  <code>const TimePick=require('react-timepick')
-  const TimePicker=TimePick.TimePicker;
-  const TimeInterval=TimePick.TimeInterval
-  </code>
+       const TimePick=require('react-timepick');
+       const TimePicker=TimePick.TimePicker;
+       const TimeInterval=TimePick.TimeInterval;
   
   or:
   
-  <code>import {TimePicker} from 'react-timepick'</code>
+         import {TimePicker} from 'react-timepick'
+         
   
   <code>TimeInterval</code> is just typescript interface for <code>allowedIntervals</code> prop
   
@@ -24,24 +24,18 @@ Get started by
   
   For default styling pull css from <code>dist</code> folder:
   
-   <code>
-            
-            <link rel="stylesheet" type="text/css" href="node_modules/react-timepick/dist/timepicker.css">                
+       <link rel="stylesheet" type="text/css" href="node_modules/react-timepick/dist/timepicker.css">                
    
-   </code>
-  
-  
+   
   You can use it like this:
   
-  <code>
-      
+
       render(){
        
            <TimePicker time={"12:20"} id="timePicker1" minuteStep={15} onTimeChange={this.onTimeChange}/>
            
        }    
        
-  </code>
   
   <b>Props</b>
   
