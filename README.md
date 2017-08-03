@@ -40,7 +40,7 @@ Get started by
   <b>Props</b>
   
   
-   Name         | Type           | Default          | Description                                | Optional
+|   Name         | Type           | Default          | Description                                | Optional
 | ------------- |:--------------:| ----------------:| ------------------------------------------:| ---------:|
 | id            | String         | <i>no-default</i>| Unique id for each datepicker              | <b>No</b> |
 | time          | String         | <i>no-default</i>| Time for timePicker (<b>in hh:mm format</b>| <b>No</b> |
