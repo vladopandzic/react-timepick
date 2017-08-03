@@ -1,5 +1,8 @@
 # react-timepick
 
+<b>Demo: https://vladop.github.io/react-timepick/examples/index.html </b>
+
+
 Get started by
   <code>npm i react-timepick</code>
   
