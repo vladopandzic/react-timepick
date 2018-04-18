@@ -9,7 +9,8 @@ module.exports = {
     entry: ["./src/TimePickerExamples.tsx","./src/stylesheets/timepicker.scss"],
     output:  {
         path: path.join(__dirname, "dist"),
-        filename: '[name].bundle.js'
+        filename: '[name].bundle.js',
+        libraryTarget: 'commonjs2'
     },
 // Enable sourcemaps for debugging webpack's output.
  //   devtool: "source-map",
